@@ -5,6 +5,8 @@
     padding: 10px;
     border-radius: 10%;
 }
+$color-index: rgb(38, 187, 38);
+$color-videos:rgb(216, 24, 24);
 /* nav */ 
 .navbar.bg-black{
     border-bottom: 3px solid rgb(38, 187, 38);
@@ -41,34 +43,34 @@
     background-size: cover;
 }
 .card.bg-transparent.text-center{
-    border: 1px solid rgb(38, 187, 38);
+    border: $color-index;
     height: 200px;
     width: 300px;
     margin: 15px;
     backdrop-filter: blur(10px);
-    box-shadow: 0px 0px 20px 8px rgba(16,230,22,0.75);
-    -webkit-box-shadow: 0px 0px 20px 8px rgba(16,230,22,0.75);
-    -moz-box-shadow: 0px 0px 20px 8px rgba(16,230,22,0.75);
+    box-shadow: 0px 0px 20px 8px $color-index;
+    -webkit-box-shadow: 0px 0px 20px 8px $color-index;
+    -moz-box-shadow: 0px 0px 20px 8px $color-index;
     .card-body{
-        border-top: 1px solid rgb(38, 187, 38);
+        border-top: 1px solid $color-index;
     }
     .card-title{
         font-size: medium;
-        color: rgb(38, 187, 38);
+        color: $color-index;
         margin-top: -15px;
     }
     .card-text{
         font-size: small;
-        color: rgb(38, 187, 38);
+        color: $color-index;
     }
     .btn.btn-primary{
         background: transparent;
-        color:rgb(38, 187, 38);
-        border: 1px solid rgb(38, 187, 38);
+        color: $color-index;
+        border: 1px solid $color-index;
         font-size: small;
         width: 100%;
     }.btn.btn-primary:hover{
-        background-color: rgb(38, 187, 38);
+        background-color: $color-index;
         color: black;
         transition: 0.7s;
     }
@@ -79,34 +81,34 @@
 }
 /* contenido de html videos*/
 .card.bg-transparent.text-center.videos{
-    border: 1px solid rgb(216, 24, 24);
+    border: 1px solid $color-videos;
     height: 200px;
     width: 300px;
     margin: 15px;
     backdrop-filter: blur(10px);
-    box-shadow: 0px 0px 20px 8px rgba(247, 41, 5, 0.75);
-    -webkit-box-shadow: 0px 0px 20px 8px rgba(240, 22, 22, 0.75);
-    -moz-box-shadow: 0px 0px 20px 8px rgba(231, 17, 17, 0.75);
+    box-shadow: 0px 0px 20px 8px $color-videos;
+    -webkit-box-shadow: 0px 0px 20px 8px $color-videos;
+    -moz-box-shadow: 0px 0px 20px 8px $color-videos;
     .card-body.videos{
-    border-top: 1px solid rgb(238, 20, 20);
+    border-top: 1px solid $color-videos;
 }
 .card-title.videos{
     font-size: medium;
-    color: rgb(226, 38, 38);
+    color: $color-videos;
     margin-top: -15px;
 }
 .card-text.videos{
     font-size: small;
-    color: rgb(214, 32, 32);
+    color: $color-videos;
 }
 .btn.btn-primary.videos{
     background: transparent;
-    color:rgb(211, 34, 34);
-    border: 1px solid rgb(223, 39, 33);
+    color: $color-videos;
+    border: 1px solid $color-videos;
     font-size: small;
     width: 100%;
 }.btn.btn-primary.videos:hover{
-    background-color: rgb(218, 32, 32);
+    background-color: $color-videos;
     color: rgb(255, 255, 255);
     transition: 0.7s;
 }
@@ -201,6 +203,50 @@
     transition: 0.7s;
 }
 .card-img-top.rams{
+    height: 150px;
+    width: 200px;
+}
+}
+/* scss de html perifericos*/
+.acordion-link.d-none.d-lg-flex.animate__animated.animate__pulse.perifericos{
+    border: 1px solid rgb(140, 0, 255);
+}
+.row.perifericos{
+    background-image: url(/assets/perifericos/fondo-peri.jpg);
+}
+.card.bg-transparent.text-center.perifericos{
+    border: 1px solid rgb(140, 0, 255);
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px 8px rgb(140, 0, 255);
+    -webkit-box-shadow: 0px 0px 20px 8px rgb(140, 0, 255);
+    -moz-box-shadow: 0px 0px 20px 8px rgb(140, 0, 255);
+    .card-body.perifericos{
+    border-top: 1px solid rgb(140, 0, 255);
+}
+.card-title.perifericos{
+    font-size: medium;
+    color: white;
+    margin-top: -15px;
+}
+.card-text.perifericos{
+    font-size: small;
+    color: white;
+}
+.btn.btn-primary.perifericos{
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(140, 0, 255);
+    font-size: small;
+    width: 100%;
+}.btn.btn-primary.perifericos:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(140, 0, 255);
+    transition: 0.7s;
+}
+.card-img-top.perifericos{
     height: 150px;
     width: 200px;
 }

@@ -37,14 +37,14 @@
   background-size: cover; }
 
 .card.bg-transparent.text-center {
-  border: 1px solid #26bb26;
+  border: #26bb26;
   height: 200px;
   width: 300px;
   margin: 15px;
   backdrop-filter: blur(10px);
-  box-shadow: 0px 0px 20px 8px rgba(16, 230, 22, 0.75);
-  -webkit-box-shadow: 0px 0px 20px 8px rgba(16, 230, 22, 0.75);
-  -moz-box-shadow: 0px 0px 20px 8px rgba(16, 230, 22, 0.75); }
+  box-shadow: 0px 0px 20px 8px #26bb26;
+  -webkit-box-shadow: 0px 0px 20px 8px #26bb26;
+  -moz-box-shadow: 0px 0px 20px 8px #26bb26; }
   .card.bg-transparent.text-center .card-body {
     border-top: 1px solid #26bb26; }
   .card.bg-transparent.text-center .card-title {
@@ -76,26 +76,26 @@
   width: 300px;
   margin: 15px;
   backdrop-filter: blur(10px);
-  box-shadow: 0px 0px 20px 8px rgba(247, 41, 5, 0.75);
-  -webkit-box-shadow: 0px 0px 20px 8px rgba(240, 22, 22, 0.75);
-  -moz-box-shadow: 0px 0px 20px 8px rgba(231, 17, 17, 0.75); }
+  box-shadow: 0px 0px 20px 8px #d81818;
+  -webkit-box-shadow: 0px 0px 20px 8px #d81818;
+  -moz-box-shadow: 0px 0px 20px 8px #d81818; }
   .card.bg-transparent.text-center.videos .card-body.videos {
-    border-top: 1px solid #ee1414; }
+    border-top: 1px solid #d81818; }
   .card.bg-transparent.text-center.videos .card-title.videos {
     font-size: medium;
-    color: #e22626;
+    color: #d81818;
     margin-top: -15px; }
   .card.bg-transparent.text-center.videos .card-text.videos {
     font-size: small;
-    color: #d62020; }
+    color: #d81818; }
   .card.bg-transparent.text-center.videos .btn.btn-primary.videos {
     background: transparent;
-    color: #d32222;
-    border: 1px solid #df2721;
+    color: #d81818;
+    border: 1px solid #d81818;
     font-size: small;
     width: 100%; }
   .card.bg-transparent.text-center.videos .btn.btn-primary.videos:hover {
-    background-color: #da2020;
+    background-color: #d81818;
     color: white;
     transition: 0.7s; }
 
@@ -178,5 +178,44 @@
     color: black;
     transition: 0.7s; }
   .card.bg-transparent.text-center.rams .card-img-top.rams {
+    height: 150px;
+    width: 200px; }
+
+/* scss de html perifericos*/
+.acordion-link.d-none.d-lg-flex.animate__animated.animate__pulse.perifericos {
+  border: 1px solid #8c00ff; }
+
+.row.perifericos {
+  background-image: url(/assets/perifericos/fondo-peri.jpg); }
+
+.card.bg-transparent.text-center.perifericos {
+  border: 1px solid #8c00ff;
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 20px 8px #8c00ff;
+  -webkit-box-shadow: 0px 0px 20px 8px #8c00ff;
+  -moz-box-shadow: 0px 0px 20px 8px #8c00ff; }
+  .card.bg-transparent.text-center.perifericos .card-body.perifericos {
+    border-top: 1px solid #8c00ff; }
+  .card.bg-transparent.text-center.perifericos .card-title.perifericos {
+    font-size: medium;
+    color: white;
+    margin-top: -15px; }
+  .card.bg-transparent.text-center.perifericos .card-text.perifericos {
+    font-size: small;
+    color: white; }
+  .card.bg-transparent.text-center.perifericos .btn.btn-primary.perifericos {
+    background: transparent;
+    color: white;
+    border: 1px solid #8c00ff;
+    font-size: small;
+    width: 100%; }
+  .card.bg-transparent.text-center.perifericos .btn.btn-primary.perifericos:hover {
+    background-color: white;
+    color: #8c00ff;
+    transition: 0.7s; }
+  .card.bg-transparent.text-center.perifericos .card-img-top.perifericos {
     height: 150px;
     width: 200px; }
