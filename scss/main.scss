@@ -117,4 +117,46 @@
 }
 
 /* scss de html madres*/
-
+.acordion-link.d-none.d-lg-flex.animate__animated.animate__pulse.madres{
+    border: 1px solid yellow;
+}
+.row.madres{
+    background-image: url(/assets/madres/fondo-madres.jpg);
+}
+.card.bg-transparent.text-center.madres{
+    border: 1px solid yellow;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px 8px yellow;
+    -webkit-box-shadow: 0px 0px 20px 8px yellow;
+    -moz-box-shadow: 0px 0px 20px 8px yellow;
+    .card-body.madres{
+    border-top: 1px solid yellow;
+}
+.card-title.madres{
+    font-size: medium;
+    color: yellow;
+    margin-top: -15px;
+}
+.card-text.madres{
+    font-size: small;
+    color: yellow;
+}
+.btn.btn-primary.madres{
+    background: transparent;
+    color:yellow;
+    border: 1px solid yellow;
+    font-size: small;
+    width: 100%;
+}.btn.btn-primary.madres:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.7s;
+}
+.card-img-top.madres{
+    height: 200px;
+    width: 190px;
+}
+}
