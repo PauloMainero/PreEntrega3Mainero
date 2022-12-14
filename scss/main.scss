@@ -13,6 +13,7 @@
     }
     .acordion-link.d-none.d-lg-flex{
         @include links;
+        animation-duration: 2s;
     }.acordion-link.d-none.d-lg-flex:hover{
         background-color: rgb(38, 187, 38);
         color: black;
@@ -21,6 +22,7 @@
     .d-inline-block.align-text-top{
     height: 60px;
     width: 180px;
+    animation-duration: 2s;
 }
 .dropdown-item{
     @include links;
@@ -28,6 +30,9 @@
     background-color: rgb(38, 187, 38);
     color: black;
     transition: 0.7s;
+}
+.img-menu.animate__animated.animate__flash{
+    animation-duration: 2s;
 }
 }
 /*contenido*/
@@ -68,3 +73,48 @@
         transition: 0.7s;
     }
 }
+/*scss de html video*/
+.acordion-link.d-none.d-lg-flex.animate__animated.animate__pulse.videos{
+    border: 2px solid rgb(248, 41, 26);
+}
+/* contenido de html videos*/
+.card.bg-transparent.text-center.videos{
+    border: 1px solid rgb(216, 24, 24);
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px 8px rgba(247, 41, 5, 0.75);
+    -webkit-box-shadow: 0px 0px 20px 8px rgba(240, 22, 22, 0.75);
+    -moz-box-shadow: 0px 0px 20px 8px rgba(231, 17, 17, 0.75);
+    .card-body.videos{
+    border-top: 1px solid rgb(238, 20, 20);
+}
+.card-title.videos{
+    font-size: medium;
+    color: rgb(226, 38, 38);
+    margin-top: -15px;
+}
+.card-text.videos{
+    font-size: small;
+    color: rgb(214, 32, 32);
+}
+.btn.btn-primary.videos{
+    background: transparent;
+    color:rgb(211, 34, 34);
+    border: 1px solid rgb(223, 39, 33);
+    font-size: small;
+    width: 100%;
+}.btn.btn-primary.videos:hover{
+    background-color: rgb(218, 32, 32);
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+}
+}
+.row.videos{
+    background-image: url(/assets/videos/fondo-videos.jpg);
+    background-size: cover;
+}
+
+/* scss de html madres*/
+

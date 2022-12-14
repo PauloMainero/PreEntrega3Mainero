@@ -8,14 +8,16 @@
     font-size: large;
     text-decoration: none;
     padding: 10px;
-    border-radius: 10%; }
+    border-radius: 10%;
+    animation-duration: 2s; }
   .navbar.bg-black .acordion-link.d-none.d-lg-flex:hover {
     background-color: #26bb26;
     color: black;
     transition: 0.7s; }
   .navbar.bg-black .d-inline-block.align-text-top {
     height: 60px;
-    width: 180px; }
+    width: 180px;
+    animation-duration: 2s; }
   .navbar.bg-black .dropdown-item {
     color: #26bb26;
     font-size: large;
@@ -26,6 +28,8 @@
     background-color: #26bb26;
     color: black;
     transition: 0.7s; }
+  .navbar.bg-black .img-menu.animate__animated.animate__flash {
+    animation-duration: 2s; }
 
 /*contenido*/
 .row {
@@ -60,3 +64,43 @@
     background-color: #26bb26;
     color: black;
     transition: 0.7s; }
+
+/*scss de html video*/
+.acordion-link.d-none.d-lg-flex.animate__animated.animate__pulse.videos {
+  border: 2px solid #f8291a; }
+
+/* contenido de html videos*/
+.card.bg-transparent.text-center.videos {
+  border: 1px solid #d81818;
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 20px 8px rgba(247, 41, 5, 0.75);
+  -webkit-box-shadow: 0px 0px 20px 8px rgba(240, 22, 22, 0.75);
+  -moz-box-shadow: 0px 0px 20px 8px rgba(231, 17, 17, 0.75); }
+  .card.bg-transparent.text-center.videos .card-body.videos {
+    border-top: 1px solid #ee1414; }
+  .card.bg-transparent.text-center.videos .card-title.videos {
+    font-size: medium;
+    color: #e22626;
+    margin-top: -15px; }
+  .card.bg-transparent.text-center.videos .card-text.videos {
+    font-size: small;
+    color: #d62020; }
+  .card.bg-transparent.text-center.videos .btn.btn-primary.videos {
+    background: transparent;
+    color: #d32222;
+    border: 1px solid #df2721;
+    font-size: small;
+    width: 100%; }
+  .card.bg-transparent.text-center.videos .btn.btn-primary.videos:hover {
+    background-color: #da2020;
+    color: white;
+    transition: 0.7s; }
+
+.row.videos {
+  background-image: url(/assets/videos/fondo-videos.jpg);
+  background-size: cover; }
+
+/* scss de html madres*/
