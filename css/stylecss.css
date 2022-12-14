@@ -141,3 +141,42 @@
   .card.bg-transparent.text-center.madres .card-img-top.madres {
     height: 200px;
     width: 190px; }
+
+/* scss de html rams*/
+.acordion-link.d-none.d-lg-flex.animate__animated.animate__pulse.rams {
+  border: 1px solid cyan; }
+
+.row.rams {
+  background-image: url(/assets/rams/fondo-ram.jpg); }
+
+.card.bg-transparent.text-center.rams {
+  border: 1px solid cyan;
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 20px 8px cyan;
+  -webkit-box-shadow: 0px 0px 20px 8px cyan;
+  -moz-box-shadow: 0px 0px 20px 8px cyan; }
+  .card.bg-transparent.text-center.rams .card-body.rams {
+    border-top: 1px solid cyan; }
+  .card.bg-transparent.text-center.rams .card-title.rams {
+    font-size: medium;
+    color: cyan;
+    margin-top: -15px; }
+  .card.bg-transparent.text-center.rams .card-text.rams {
+    font-size: small;
+    color: cyan; }
+  .card.bg-transparent.text-center.rams .btn.btn-primary.rams {
+    background: transparent;
+    color: cyan;
+    border: 1px solid cyan;
+    font-size: small;
+    width: 100%; }
+  .card.bg-transparent.text-center.rams .btn.btn-primary.rams:hover {
+    background-color: cyan;
+    color: black;
+    transition: 0.7s; }
+  .card.bg-transparent.text-center.rams .card-img-top.rams {
+    height: 150px;
+    width: 200px; }
