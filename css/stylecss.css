@@ -1,0 +1,62 @@
+/* nav */
+.navbar.bg-black {
+  border-bottom: 3px solid #26bb26; }
+  .navbar.bg-black .navbar-brand {
+    padding: 0%; }
+  .navbar.bg-black .acordion-link.d-none.d-lg-flex {
+    color: #26bb26;
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%; }
+  .navbar.bg-black .acordion-link.d-none.d-lg-flex:hover {
+    background-color: #26bb26;
+    color: black;
+    transition: 0.7s; }
+  .navbar.bg-black .d-inline-block.align-text-top {
+    height: 60px;
+    width: 180px; }
+  .navbar.bg-black .dropdown-item {
+    color: #26bb26;
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%; }
+  .navbar.bg-black .dropdown-item:hover {
+    background-color: #26bb26;
+    color: black;
+    transition: 0.7s; }
+
+/*contenido*/
+.row {
+  background-image: url(/assets/fondo-inicio.jpg);
+  background-size: cover; }
+
+.card.bg-transparent.text-center {
+  border: 1px solid #26bb26;
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 20px 8px rgba(16, 230, 22, 0.75);
+  -webkit-box-shadow: 0px 0px 20px 8px rgba(16, 230, 22, 0.75);
+  -moz-box-shadow: 0px 0px 20px 8px rgba(16, 230, 22, 0.75); }
+  .card.bg-transparent.text-center .card-body {
+    border-top: 1px solid #26bb26; }
+  .card.bg-transparent.text-center .card-title {
+    font-size: medium;
+    color: #26bb26;
+    margin-top: -15px; }
+  .card.bg-transparent.text-center .card-text {
+    font-size: small;
+    color: #26bb26; }
+  .card.bg-transparent.text-center .btn.btn-primary {
+    background: transparent;
+    color: #26bb26;
+    border: 1px solid #26bb26;
+    font-size: small;
+    width: 100%; }
+  .card.bg-transparent.text-center .btn.btn-primary:hover {
+    background-color: #26bb26;
+    color: black;
+    transition: 0.7s; }

@@ -1,0 +1,70 @@
+@mixin links{
+    color: rgb(38, 187, 38);
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%;
+}
+/* nav */ 
+.navbar.bg-black{
+    border-bottom: 3px solid rgb(38, 187, 38);
+    .navbar-brand{
+       padding: 0%;
+    }
+    .acordion-link.d-none.d-lg-flex{
+        @include links;
+    }.acordion-link.d-none.d-lg-flex:hover{
+        background-color: rgb(38, 187, 38);
+        color: black;
+        transition: 0.7s;
+    }
+    .d-inline-block.align-text-top{
+    height: 60px;
+    width: 180px;
+}
+.dropdown-item{
+    @include links;
+}.dropdown-item:hover{
+    background-color: rgb(38, 187, 38);
+    color: black;
+    transition: 0.7s;
+}
+}
+/*contenido*/
+.row{
+    background-image: url(/assets/fondo-inicio.jpg);
+    background-size: cover;
+}
+.card.bg-transparent.text-center{
+    border: 1px solid rgb(38, 187, 38);
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px 8px rgba(16,230,22,0.75);
+    -webkit-box-shadow: 0px 0px 20px 8px rgba(16,230,22,0.75);
+    -moz-box-shadow: 0px 0px 20px 8px rgba(16,230,22,0.75);
+    .card-body{
+        border-top: 1px solid rgb(38, 187, 38);
+    }
+    .card-title{
+        font-size: medium;
+        color: rgb(38, 187, 38);
+        margin-top: -15px;
+    }
+    .card-text{
+        font-size: small;
+        color: rgb(38, 187, 38);
+    }
+    .btn.btn-primary{
+        background: transparent;
+        color:rgb(38, 187, 38);
+        border: 1px solid rgb(38, 187, 38);
+        font-size: small;
+        width: 100%;
+    }.btn.btn-primary:hover{
+        background-color: rgb(38, 187, 38);
+        color: black;
+        transition: 0.7s;
+    }
+}
